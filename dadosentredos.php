@@ -32,6 +32,7 @@
     echo "</div>";
 
     // Dado a eliminar
+    $dadoSuelto = tirarDado();
     echo "<div>";
     echo "<h2>Dado a eliminar</h2>";
     echo "<img src='img/{$dadoSuelto}.svg' alt='Dado {$dadoSuelto}' class='dice'>";
