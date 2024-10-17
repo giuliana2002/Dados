@@ -12,3 +12,4 @@
 </head>
 <body>
     <h1>Tirada de dados</h1>
+</body>
