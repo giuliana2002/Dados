@@ -12,4 +12,24 @@
 </head>
 <body>
     <h1>Tirada de dados</h1>
+    <?php
+    function tirarDado() {
+        return rand(1, 6);
+    }
+
+    // Tirada inicial de 6 dados
+    $tiradaInicial = [];
+    for ($i = 0; $i < 6; $i++) {
+        $tiradaInicial[$i] = tirarDado();
+    }
+
+    // Mostrar tirada inicial
+    echo "<div>";
+    echo "<h2>Tirada de 6 dados</h2>";
+    foreach ($tiradaInicial as $dado) {
+        echo "<img src='imagenes/{$dado}.svg' alt='Dado {$dado}' class='dice'>";
+    }
+    echo "</div>";
+    ?>
 </body>
+</html>
