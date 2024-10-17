@@ -30,6 +30,8 @@
         echo "<img src='imagenes/{$dado}.svg' alt='Dado {$dado}' class='dice'>";
     }
     echo "</div>";
+
+    // Calcular suma de la tirada inicial
     ?>
 </body>
 </html>
